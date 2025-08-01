@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(228, 238, 247);
+    background-color: rgb(97, 168, 230);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     color: black;
@@ -12,7 +12,7 @@ body{
 .contenedor01 {
     height: 100vh;
     display: flex;
-    background-color: rgb(236, 236, 241);
+    background-color: rgb(96, 215, 236);
 }
 .main{
     flex: 3;
@@ -47,4 +47,29 @@ main h1{
     text-align: center;
     justify-content: center;
     font-size:center ;
+}
+main p {
+    text-align: center;
+    justify-self: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+main a {
+     text-align: center;
+    justify-self: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+.img1 {
+    text-align: center;
+    justify-self: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    justify-content: center;
+}
+main h2{
+     text-align: center;
+    justify-self: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: auto;
 }
